@@ -1,0 +1,88 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4000ff;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    margin-left: 125px;
+    
+}
+
+.container > div {
+    background-color: white;
+  width: 750px;
+  margin: 80px;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section{
+    margin-left: 125px;
+    display: flex;
+    background-color: rgb(118, 230, 219);
+    width: 1000px;
+}
+
+.section > div{
+    background-color: rgb(118, 230, 219)se;
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 8px;
+}
+
+ul{
+    font-size: 12px;
+    list-style-position: outside;
+}
+
+h4{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    
+}
+
+.flex-colomn{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.flex-colomn > div{
+    background-color: white;
+    width: 750px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 10px;
+    border-bottom-style: solid;
+}
+
+h4{
+    margin-left: 200px;
+    font-family: sans-serif;
+    color: yellowgreen;
+}
+
+
+footer{
+    margin-left: 125px;
+    width: 1000px;
+    background-color: rgb(143, 56, 2);
+    color:whitesmoke ;
+    text-align: center;
+    padding: auto;
+}
